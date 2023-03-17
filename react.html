@@ -17,7 +17,7 @@
 
   <button type="button"
   class="btn btn-primary"
-  onclick="buttonPress2()">
+  onclick="startTime()">
   Start Timer</button>
 
   <button type="button"
@@ -34,7 +34,7 @@
     console.log(reactTime)
   }
 
-  function buttonPress2() {
+  function startTime() {
     setTimeout(()=>{
       document.getElementById('target').style.color = "red"
     }, 3000)
